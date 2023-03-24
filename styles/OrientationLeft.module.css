@@ -12,7 +12,7 @@
     display: inline-block;
     width:32px;
     height:32px;
-    margin: 10px;
+    margin: 22px;
     background-color:transparent;
     position: relative;
     top:0;
@@ -25,7 +25,7 @@
 }
 
 .anchor:hover{
-    top:-5px;
+    top:-10px;
 }
 
 .social {

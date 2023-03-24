@@ -7,6 +7,7 @@ import styleOrientation from '~/styles/Orientation.module.css';
 import { Icon } from '@iconify/react';
 import Header from "~/components/header";
 import OrientationLeft from "~/components/orientation-left";
+import OrientationRight from "~/components/orientation-right";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       </Head>
       <Header/>
       <OrientationLeft/>
+      <OrientationRight/>
       <main className={styles.main}>gg</main>
     </>
   );

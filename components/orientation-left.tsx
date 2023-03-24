@@ -2,7 +2,7 @@ import React from 'react'
 import GitHubIcon from '~/public/icons/github'
 import LinkedinIcon from '~/public/icons/linkedin'
 import TelegramIcon from '~/public/icons/telegram'
-import style from '~/styles/Orientation.module.css'
+import style from '~/styles/OrientationLeft.module.css'
 export default function OrientationLeft() {
   return (
     <div className={style.left}>
