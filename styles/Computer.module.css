@@ -1,0 +1,5 @@
+.codeGraph path {
+    -webkit-animation: float 4s ease-in-out infinite;
+    animation: float 4s ease-in-out infinite;
+    transition: all .3s ease-out;
+}
