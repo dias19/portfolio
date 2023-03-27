@@ -7,7 +7,7 @@ export default function Header() {
     <div className={style.nav}>
       <div className={style.logo}>logo</div>
       <div className={style.navbar}>
-        <ul className={style.about}>About</ul>
+        <ul className={style.about}>About me</ul>
         <ul className={style.projects}>Projects</ul>
         <ul className={style.experience}>Experience</ul>
         <button className={style.button}>Resume</button>

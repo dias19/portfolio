@@ -1,9 +1,9 @@
 .section{
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items:center;
 }
 
 .heading{
@@ -39,6 +39,7 @@
     font-size: 20px;
     font-family: var(--font-sans);
     margin-bottom: 15px;
+    max-width: 540px;
 }
 
 .list{
@@ -67,4 +68,8 @@
 
 .anchor::before{
     content: " ";
+}
+
+.anchor::after{
+    content: " "
 }

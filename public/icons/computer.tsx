@@ -2,7 +2,10 @@ import React from 'react'
 import style from '~/styles/Computer.module.css'
 export default function Computer() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3879.7732 4661.1069" xmlSpace="preserve" id="svg2" version="1.1">
+    <svg
+    height='500px'
+    width='500px'
+     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3879.7732 4661.1069" xmlSpace="preserve" id="svg2" version="1.1">
 
     <defs id="defs6">
 
