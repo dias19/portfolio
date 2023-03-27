@@ -10,6 +10,7 @@ import OrientationLeft from "~/components/orientation-left";
 import OrientationRight from "~/components/orientation-right";
 import Landing from "~/components/landing";
 import AboutMe from "~/components/about";
+import Projects from "~/components/projects/projects";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
       <main className={styles.main}>
         <Landing/>
         <AboutMe/>
+        <Projects/>
       </main>
     </>
   );

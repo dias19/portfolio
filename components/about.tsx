@@ -5,8 +5,8 @@ import Computer from "~/public/icons/computer";
 
 export default function AboutMe() {
   return (
-    <Element name="aboutMe">
-      <section className={style.section}>
+      <Element name="aboutMe">
+    <section className={style.section}>
         <div>
           <h1 className={style.heading}>About me</h1>
           <p className={style.body}>
@@ -25,7 +25,11 @@ export default function AboutMe() {
             >
               a marketplace,
             </a>
-            <a className={style.anchor} target="_blank" href="https://scaneat.kz/">
+            <a
+              className={style.anchor}
+              target="_blank"
+              href="https://scaneat.kz/"
+            >
               and a start-up.
             </a>
             I am currently at the position of exploring other opportunities.
@@ -40,10 +44,10 @@ export default function AboutMe() {
             <li className={style.listItem}>Redux</li>
           </ul>
         </div>
-        <div style={{marginLeft:'40px'}}>
+        <div>
           <Computer />
         </div>
-      </section>
-    </Element>
+    </section>
+      </Element>
   );
 }
