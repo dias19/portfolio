@@ -1,0 +1,64 @@
+.container {
+    position: fixed;
+    top: 0px;
+    z-index: 11;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    color:#ccd6f6;
+    padding: 0 50px;
+    height: 100px;
+    font-size: 16px;
+    font-family: var(--font-mono);
+}
+
+.navbar {
+    display: flex;
+}
+
+.about::before {
+    content: '01. ';
+    color:#64ffda;
+}
+
+.about {
+    padding:10px;
+}
+
+
+.projects::before {
+    content: '02. ';
+    color:#64ffda;
+}
+
+.projects {
+    padding:10px;
+}
+
+
+.experience::before {
+    content: '03. ';
+    color:#64ffda;
+}
+
+.experience {
+    padding:10px;
+}
+
+.button {
+    margin-left: 15px;
+    padding: 12px 16px;
+    background-color: transparent;
+    color:#64ffda;
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    line-height: 1;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
