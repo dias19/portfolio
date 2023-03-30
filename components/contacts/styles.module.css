@@ -1,0 +1,62 @@
+.section {
+    height:100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto 100px;
+}
+
+.heading {
+    display: flex;
+    -webkit-box-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 40px;
+    width: 100%;
+    font-size: clamp(26px,5vw,32px);
+    white-space: nowrap;
+    color:#ccd6f6;
+}
+
+.heading::before{
+    content: '04.';
+    margin-right: 10px;
+    position: relative;
+    color: #64ffda;
+}
+
+.anchor{
+    padding: 20px 20px;
+    border:1px solid var(--green);
+    border-radius: 4px;
+    color: var(--green);
+    background-color: transparent;
+    font-size: 14px;
+    font-family: var(--font-mono);
+    cursor:pointer;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.title {
+    margin: 0px 0px 20px;
+    font-size: 60px;
+    color: var(--ligthest-slate);
+}
+
+
+.body{
+    margin: 0px 0px 10px;
+    font-size: 20px;
+    color: var(--ligthest-slate);
+}
+
+.body::before{
+    content: 'I am currently looking at new opportunities, my inbox is always open. ';
+    color: var(--green);
+    font-size: 20px;
+}

@@ -7,6 +7,7 @@ import Landing from "~/components/landing";
 import AboutMe from "~/components/about";
 import Projects from "~/components/projects";
 import Experience from "~/components/experience";
+import Contact from "~/components/contacts";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <AboutMe/>
         <Projects/>
         <Experience/>
+        <Contact/>
       </main>
     </>
   );
