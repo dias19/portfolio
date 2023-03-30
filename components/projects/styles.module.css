@@ -37,8 +37,13 @@
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap:20px;
     text-align: right;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+}
+
+.left-case{
+    text-align: left;
 }
 
 .name{
@@ -51,17 +56,16 @@
     color: var(--green);
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 24px;
     font-family: var(--font-mono);
 }
 
 .description{
-    background-color: #112240;
     color: #a8b2d1;
-    box-shadow: 0 10px 30px -15px var(--navy-shadow);
-    padding: 25px;
     font-size: 18px;
     font-family: var(--font-sans);
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .anchorImage{
@@ -70,6 +74,8 @@
     background-color: var(--green);
     border-radius: var(--border-radius);
     vertical-align: middle;
+    position: relative;
+    z-index: 1;
     display: inline-block;
 }
 
@@ -93,6 +99,7 @@
     max-width: none;
     padding: 0;
     position: absolute;
+    background-clip: content-box;
     right: 0;
     top: 0;
 }
@@ -108,9 +115,8 @@
     list-style: none;
     justify-content: flex-end;
     color:#a8b2d1;
-    font-size: 13px;
+    font-size: 16px;
     font-family: var(--font-mono);
-    margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -121,18 +127,37 @@
 .listIcon{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     list-style: none;
 }
 
-.anchor {
+.leftCase{
+    justify-content: flex-start;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+.anchorGithub {
     display: inline-block;
-    width:32px;
-    height:32px;
+    width:24px;
+    height:24px;
     margin-right: 10px;
     background-color:transparent;
 }
 
-.anchor:hover svg path {
-    stroke: #64ffda;
+.anchorLink{
+    display: inline-block;
+    width:32px;
+    height:32px;
+    margin-right: 10px;
+    background-color:transparent
+}
+
+.anchorLink:hover svg path {
+    stroke: var(--green);
     stroke-width: 2px;
+}
+
+.anchorGithub:hover svg path {
+    fill: var(--green);
 }

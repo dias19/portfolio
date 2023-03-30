@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./AboutMe.module.css";
+import style from "./styles.module.css";
 import { Element } from "react-scroll";
 import Computer from "~/public/icons/computer";
 

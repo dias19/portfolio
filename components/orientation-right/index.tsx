@@ -1,5 +1,5 @@
 import React from "react";
-import style from './OrientationRight.module.css'
+import style from './styles.module.css'
 export default function OrientationRight() {
   return (
     <div className={style.right}>
