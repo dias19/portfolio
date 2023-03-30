@@ -1,7 +1,9 @@
 import React from "react";
+import { Element } from "react-scroll";
 import styles from "./styles.module.css";
 export default function Contact() {
   return (
+    <Element name='contacts'>
     <section className={styles.section}>
       <h1 className={styles.heading}>Contact me</h1>
       <p className={styles.title}>Get In Touch</p>
@@ -13,5 +15,6 @@ export default function Contact() {
       href="mailto:dias.nurmukhambetov@gmail.com" 
       >Say Hello!</a>
     </section>
+      </Element>
   );
 }

@@ -28,6 +28,7 @@
 
 .about {
     padding:10px;
+    cursor: pointer;
 }
 
 
@@ -38,6 +39,7 @@
 
 .projects {
     padding:10px;
+    cursor: pointer;
 }
 
 
@@ -48,11 +50,13 @@
 
 .experience {
     padding:10px;
+    cursor: pointer;
 }
 
 
 .contact {
     padding: 10px;
+    cursor: pointer;
 }
 
 .contact::before {

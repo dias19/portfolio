@@ -3,10 +3,10 @@ import TabPanel from "./components/TabPanel";
 import Tabs from "./components/Tabs";
 import { TABS } from "./constants";
 import styles from "./styles.module.css";
-
+import { Element } from "react-scroll";
 export default function Experience() {
-  const [activeTab, setActiveTab] = useState(0);
   return (
+    <Element name='experience'>
     <section className={styles.section}>
       <h1 className={styles.heading}>Experience</h1>
       <div style={{ display: "flex", justifyContent: "center" }}>
@@ -86,6 +86,7 @@ export default function Experience() {
         </div>
       </div>
     </section>
+    </Element>
   );
 }
 
