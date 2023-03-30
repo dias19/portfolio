@@ -1,15 +1,12 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import styles from "~/styles/Home.module.css";
-import { Icon } from '@iconify/react';
 import Header from "~/components/header";
 import OrientationLeft from "~/components/orientation-left";
 import OrientationRight from "~/components/orientation-right";
 import Landing from "~/components/landing";
 import AboutMe from "~/components/about";
 import Projects from "~/components/projects";
-const inter = Inter({ subsets: ["latin"] });
+import Experience from "~/components/experience";
 
 export default function Home() {
   return (
@@ -27,6 +24,7 @@ export default function Home() {
         <Landing/>
         <AboutMe/>
         <Projects/>
+        <Experience/>
       </main>
     </>
   );

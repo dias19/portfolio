@@ -23,7 +23,7 @@
 
 .about::before {
     content: '01. ';
-    color:#64ffda;
+    color: var(--green);
 }
 
 .about {
@@ -33,7 +33,7 @@
 
 .projects::before {
     content: '02. ';
-    color:#64ffda;
+    color: var(--green);
 }
 
 .projects {
@@ -50,6 +50,16 @@
     padding:10px;
 }
 
+
+.contact {
+    padding: 10px;
+}
+
+.contact::before {
+    content: '04. ';
+    color: var(--green);
+}
+
 .button {
     margin-left: 15px;
     padding: 12px 16px;
@@ -60,5 +70,4 @@
     line-height: 1;
     font-size: 13px;
     cursor: pointer;
-    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
 }

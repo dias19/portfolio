@@ -14,9 +14,7 @@ export default function Projects() {
         <div className={style.container}>
           <div className={style.containerImage}>
             <a href="https://scaneat.kz/" className={style.anchorImage}>
-              <div className={style.imageWrap}>
                 <Image src={scaneat} className={style.image} alt="wrong" />
-              </div>
             </a>
           </div>
           <div>
