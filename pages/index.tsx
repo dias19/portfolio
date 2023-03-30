@@ -8,6 +8,7 @@ import AboutMe from "~/components/about";
 import Projects from "~/components/projects";
 import Experience from "~/components/experience";
 import Contact from "~/components/contacts";
+import Footer from "~/components/footer";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <Experience/>
         <Contact/>
       </main>
+      <Footer/>
     </>
   );
 }

@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    min-height: 70px;
+    padding: 30px;
+    text-align: center;
+}
+
+.container{
+    color:var(--ligth-slate);
+    font-size: 14px;
+    font-family: var(--font-mono);
+}
+
+.body{
+    margin-top: 10px;
+}
+
+.anchor:hover{
+    color: var(--green);
+}

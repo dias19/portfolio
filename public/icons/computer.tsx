@@ -440,7 +440,7 @@ export default function Computer() {
     </path>
     </g>
     <g id="g260">
-    <g clip-path="url(#clipPath266)" id="g262">
+    <g clipPath="url(#clipPath266)" id="g262">
     <path id="path268" d="m 6485.2,5092.8 h 3570.4 v 2147 H 6485.2 Z" style={{fill: '#444444', fillOpacity: 1, fillRule: 'nonzero', stroke: 'none'}}>
     </path>
     </g>
@@ -1478,7 +1478,7 @@ export default function Computer() {
     </path>
     </g>
     <g id="g1302">
-    <g clip-path="url(#clipPath1308)" id="g1304">
+    <g clipPath="url(#clipPath1308)" id="g1304">
     <g transform="scale(2.14024)" id="g1310">
     <path id="path1312" d="M 0,16300 H 2013.77 V 11442.7 H 0" style={{fill: '#464b56', fillOpacity:1, fillRule:'nonzero', stroke:'none'}}>
     </path>
@@ -1602,7 +1602,7 @@ export default function Computer() {
     </path>
     </g>
     <g id="g1430">
-    <g clip-path="url(#clipPath1436)" id="g1432">
+    <g clipPath="url(#clipPath1436)" id="g1432">
     <g transform="scale(2.01591)" id="g1438">
     <path id="path1440" d="m 891.671,15845.8 c -23.642,0 -50.314,7.7 -78.545,24 -97.124,56.1 -175.86,192.5 -175.86,304.6 0,79.6 39.624,125.6 97.319,125.6 23.638,0 50.314,-7.7 78.541,-24 97.126,-56.1 175.864,-192.5 175.864,-304.6 0,-79.6 -39.624,-125.6 -97.319,-125.6" style={{fill: '#dadbd8', fillOpacity:1, fillRule:'nonzero', stroke:'none'}}>
     </path>
@@ -2770,7 +2770,7 @@ export default function Computer() {
     </path>
     </g>
     <g id="g2602">
-    <g clip-path="url(#clipPath2608)" id="g2604">
+    <g clipPath="url(#clipPath2608)" id="g2604">
     <g transform="scale(2.09641)" id="g2610">
     <path id="path2612" d="M 3922.88,16300 H 8515.32 V 13277.6 H 3922.88" style={{fill: '#464b56', fillOpacity:1, fillRule:'nonzero', stroke:'none'}}>
     </path>
@@ -3496,7 +3496,7 @@ export default function Computer() {
     </path>
     </g>
     <g id="g3332">
-    <g clip-path="url(#clipPath3338)" id="g3334">
+    <g clipPath="url(#clipPath3338)" id="g3334">
     <g transform="scale(1.38007)" id="g3340">
     <path id="path3342" d="m 3122.98,16081.2 c -16.33,41.6 -25.7,84.4 -25.7,124.2 0,40 9.37,71.9 25.7,94.6 v -218.8" style={{fill: '#dadbd8', fillOpacity:1, fillRule:'nonzero', stroke:'none'}}>
     </path>
